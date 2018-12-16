@@ -1,0 +1,29 @@
+{
+	"segment_data": {
+		"hostname": {
+			"args": {
+				"only_if_ssh": false,
+				"exclude_domain": true
+			},
+			"after":":",
+			"draw_inner_divider":false,
+			"draw_hard_divider":false,
+			"draw_soft_divider":false
+		},
+		"cwd": {
+			"args": {
+				"dir_limit_depth": 3,
+				"use_path_separator": true
+			}
+		},
+		"user": {
+			"args": {
+				"hide_domain": true
+		 	},
+			"draw_inner_divider":false,
+			"draw_hard_divider":false,
+			"draw_soft_divider":false
+			
+		}
+	}
+}

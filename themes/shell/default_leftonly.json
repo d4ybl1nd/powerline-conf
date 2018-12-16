@@ -1,0 +1,42 @@
+{
+	"segments": {
+		"left": [
+			{
+				"priority":30,
+				"name":"lock",
+				"contents":"",
+				"type": "string"
+			},
+			{
+				"function": "powerline.segments.common.env.user",
+				"priority": 30,
+				"draw_soft_divider":false,
+				"draw_hard_divider":false,
+				"draw_inner_divider":false
+			},
+			{
+				"function": "powerline.segments.common.net.hostname",
+				"priority": 10,
+				"draw_soft_divider":false,
+				"draw_hard_divider":false,
+				"draw_inner_divider":false
+			},
+			{
+				"function": "powerline.segments.common.env.virtualenv",
+				"priority": 50
+			},
+			{
+				"function": "powerline.segments.shell.cwd",
+				"priority": 10
+			},
+			{
+				"function": "powerline.segments.common.vcs.branch",
+				"priority": 40
+			},
+			{
+				"function": "powerline.segments.shell.jobnum",
+				"priority": 20
+			}
+		]
+	}
+}
